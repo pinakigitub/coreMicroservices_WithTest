@@ -1,3 +1,11 @@
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.deps.json
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.runtimeconfig.json
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.runtimeconfig.dev.json
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.pdb
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
@@ -5,6 +13,7 @@ C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bi
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\XUnitTest-productApi.runtimeconfig.json
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\XUnitTest-productApi.runtimeconfig.dev.json
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\XUnitTest-productApi.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\XUnitTest-productApi.pdb
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\Domain.dll
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\Persistance.dll
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\WebApi.dll
@@ -16,14 +25,5 @@ C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\ob
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\obj\Debug\netcoreapp2.1\XUnitTest-productApi.AssemblyInfoInputs.cache
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\obj\Debug\netcoreapp2.1\XUnitTest-productApi.AssemblyInfo.cs
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\obj\Debug\netcoreapp2.1\XUnitTest-productApi.csproj.CopyComplete
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\bin\Debug\netcoreapp2.1\XUnitTest-productApi.pdb
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\obj\Debug\netcoreapp2.1\XUnitTest-productApi.dll
 C:\Users\mohapap\source\repos\coreMicroservices_WithTest\XUnitTest-productApi\obj\Debug\netcoreapp2.1\XUnitTest-productApi.pdb
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.deps.json
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.runtimeconfig.json
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.runtimeconfig.dev.json
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.dll
-C:\Users\mohapap\source\repos\coreMicroservices_WithTest\netcoreapp2.1\XUnitTest-productApi.pdb
