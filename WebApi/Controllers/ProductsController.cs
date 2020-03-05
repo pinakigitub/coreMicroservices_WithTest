@@ -13,7 +13,7 @@ namespace WebApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-
+        //pinaki added sample Changes
         private readonly IProductService _categoryService;
         private readonly IMapper _mapper;
         public ProductsController(IProductService categoryService)
