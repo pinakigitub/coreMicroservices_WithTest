@@ -37,5 +37,28 @@ namespace XUnitTest_productApi
            Assert.Equal(values[0].Productname, "aed");
            
         }
+        [Fact]
+        public async Task TestGetStockItemsAsync1()
+        {
+            // Arrange
+            //var dbContext = DbContextMocker.GetWideWorldImportersDbContext(nameof(TestGetStockItemsAsync));
+            //var controller = new ProductsController(null, dbContext);
+            //public ProductsController(IProductService categoryService, IMapper mapper)
+
+            List<ProductInfos> list = new List<ProductInfos>();
+            list.Add(new ProductInfos() { Id = 1, Productname = "aed", Unitprice = 9 });
+
+            var valueServiceMock = new Mock<IProductService>();
+            valueServiceMock.Setup(service => service.ListAsync())
+            .Returns(Task.FromResult<IEnumerable<ProductInfos>>(list));
+            var controller = new ProductsController(valueServiceMock.Object);
+
+            // Act
+            var response = await controller.GetAllSales() as ObjectResult;
+            var values = response.Value as List<ProductInfos>;
+
+            Assert.Equal(values[0].Productname, "aedserewr");
+
+        }
     }
 }
