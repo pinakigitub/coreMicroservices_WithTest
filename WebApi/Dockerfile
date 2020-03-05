@@ -1,16 +1,21 @@
-FROM microsoft/dotnet:2.1-sdk AS build-env
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
 
-# Copy csproj and restore as distinct layers
-COPY *.csproj ./
-RUN dotnet restore
 
-# Copy everything else and build
-COPY . ./
-RUN dotnet publish -c Release -o out
+FROM microsoft/dotnet:2.1-sdk AS build
+WORKDIR /src
+COPY ["WebApi/WebApi.csproj", "WebApi/"]
+COPY ["Persistance/Persistance.csproj", "Persistance/"]
+COPY ["Domain/Domain.csproj", "Domain/"]
+RUN dotnet restore "WebApi/WebApi.csproj"
+COPY . .
+WORKDIR "/src/WebApi"
+RUN dotnet build "WebApi.csproj" -c Release -o /app
 
-# Build runtime image
-FROM microsoft/dotnet:2.1-aspnetcore-runtime
+FROM build AS publish
+RUN dotnet publish "WebApi.csproj" -c Release -o /app
+
+FROM base AS final
 WORKDIR /app
-COPY --from=build-env /app/out .
-CMD dotnet WebApi.dll
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "WebApi.dll"]
