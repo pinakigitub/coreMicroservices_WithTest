@@ -20,7 +20,7 @@ stages:
     steps:
     - script: |
         docker info
-        docker build -t aspnetapp -f Dockerfile .
+        docker build -t aspnetapp -f $(dockerfilepath) .
         docker login --username=pinaki.best@gmail.com --password=8fe0c4d9-c792-4685-8d42-fa264e504f10 registry.heroku.com
         docker tag aspnetapp registry.heroku.com/warfser/web
         docker push registry.heroku.com/warfser/web
