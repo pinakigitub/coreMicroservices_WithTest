@@ -27,6 +27,10 @@ namespace WebApi
                          options.ListenAnyIP(int.Parse(port));
                      }
                  });
+        //public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+        //       WebHost.CreateDefaultBuilder(args)
+        //           .UseStartup<Startup>();
+
     }
 
 }
