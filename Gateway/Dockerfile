@@ -13,7 +13,7 @@ RUN dotnet build "Gateway.csproj" -c Release -o /appp
 FROM build AS publish
 RUN dotnet publish "Gateway.csproj" -c Release -o /appp
 
-ENV ASPNETCORE_ENVIRONMENT Production
+
 
 FROM base AS final
 WORKDIR /appp
