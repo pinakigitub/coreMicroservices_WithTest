@@ -18,6 +18,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest-productApi", "XUnitTest-productApi\XUnitTest-productApi.csproj", "{4BCD121D-6323-4C35-945D-9DF3923CA2D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api_gateWay", "Api_gateWay", "{87D90C09-DED8-49DD-869E-F3D436E83D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{4BCD121D-6323-4C35-945D-9DF3923CA2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BCD121D-6323-4C35-945D-9DF3923CA2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BCD121D-6323-4C35-945D-9DF3923CA2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,7 @@ Global
 		{4BBB4B54-1574-4B77-918F-FB475EC93BF5} = {B17845CD-03D7-4FF8-997F-DD9B124AC651}
 		{D604932E-FC60-40C3-AA01-632BEA6A5EB2} = {B17845CD-03D7-4FF8-997F-DD9B124AC651}
 		{4BCD121D-6323-4C35-945D-9DF3923CA2D8} = {B17845CD-03D7-4FF8-997F-DD9B124AC651}
+		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335} = {87D90C09-DED8-49DD-869E-F3D436E83D90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2132436F-3609-4B74-876F-C4F16A957317}
