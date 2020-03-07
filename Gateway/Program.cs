@@ -13,6 +13,7 @@ namespace Gateway
 {
     public class Program
     {
+        public static IHostingEnvironment HostingEnvironment { get; set; }
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
@@ -22,9 +23,10 @@ namespace Gateway
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args).ConfigureAppConfiguration((host, config) =>
             {
-                var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-                config.AddJsonFile(environment+"OcelotConfig.json");
-               // config.AddJsonFile($"configuration.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
+                var env = host.HostingEnvironment;
+         
+                var dsf = $"{env.EnvironmentName}OcelotConfig.json";
+                config.AddJsonFile($"{env.EnvironmentName}OcelotConfig.json", true, true);
             })
             .UseStartup<Startup>()
             .UseKestrel((context, options) =>
