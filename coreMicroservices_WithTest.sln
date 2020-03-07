@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{B17845CD-03D7-4FF8-997F-DD9B124AC651}"
 	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		azure-pipelines2.yml = azure-pipelines2.yml
 		.circleci\config.yml = .circleci\config.yml
 	EndProjectSection
 EndProject
