@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        context: ../
+        context: ../../
         dockerfile: 'WebApi/Dockerfile'
         tags: |
           $(tag)
