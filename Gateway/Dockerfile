@@ -13,7 +13,9 @@ RUN dotnet build "Gateway.csproj" -c Release -o /appp
 FROM build AS publish
 RUN dotnet publish "Gateway.csproj" -c Release -o /appp
 
+ENV ASPNETCORE_ENVIRONMENT Production
+
 FROM base AS final
 WORKDIR /appp
 COPY --from=publish /appp .
-ENTRYPOINT ["dotnet", "Gateway.dll"]
+ENTRYPOINT ["dotnet", "Gateway.dll", "--environment=Production"]
