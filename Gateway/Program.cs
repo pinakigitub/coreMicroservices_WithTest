@@ -23,7 +23,7 @@ namespace Gateway
             WebHost.CreateDefaultBuilder(args).ConfigureAppConfiguration((host, config) =>
             {
                 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-                config.AddJsonFile(environment+"OcelotConfig.json");
+                config.AddJsonFile("ProductionOcelotConfig.json");
                // config.AddJsonFile($"configuration.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
             })
             .UseStartup<Startup>()
