@@ -23,7 +23,6 @@ namespace Gateway
             Configuration = configuration;
             _currentEnvironment = env;
         }
-
         public IConfiguration Configuration { get; }
         private IHostingEnvironment _currentEnvironment { get; set; }
 
