@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "bfe473bbc6887e4a7fde84c815d38f8709722372"
+    "signature": "3e6a81838c1779dcbca71590e00d884220cdce56"
   },
   "compilationOptions": {},
   "targets": {
@@ -1067,6 +1067,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.0.1916590": {},
       "Microsoft.VisualStudio.Web.CodeGeneration/2.1.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
@@ -2627,6 +2628,7 @@
         "dependencies": {
           "AutoMapper": "9.0.0",
           "Domain": "1.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.0.1916590",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
           "Persistance": "1.0.0"
         },
@@ -3103,6 +3105,13 @@
       "sha512": "sha512-fFEbBDCS1rP05+PP9FDL0OdyFmzHyj37mErMhunE+WpD7cGL17ZzkOSXa9Pla+RK12rxIeN8MeOl8aNuG2dUWw==",
       "path": "microsoft.testplatform.testhost/15.8.0",
       "hashPath": "microsoft.testplatform.testhost.15.8.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.0.1916590": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bIEPJ4V0spW0aLb5/XQvs8ziv85wrR62IDowAItnfXCXHOUelEEOW59lq95IfXMFf/tWUDyrcLQh8rnFVfWWyw==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.0.1916590",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.0.1916590.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.1": {
       "type": "package",

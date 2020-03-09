@@ -20,9 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest-productApi", "XUn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api_gateWay", "Api_gateWay", "{87D90C09-DED8-49DD-869E-F3D436E83D90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CBC37D78-CDD8-4615-A88B-69ABC63239E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "Gateway\Gateway.csproj", "{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,10 +48,6 @@ Global
 		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A5AD1E8-5F8A-45A3-BA68-5423889EC335}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CBC37D78-CDD8-4615-A88B-69ABC63239E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBC37D78-CDD8-4615-A88B-69ABC63239E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBC37D78-CDD8-4615-A88B-69ABC63239E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBC37D78-CDD8-4615-A88B-69ABC63239E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

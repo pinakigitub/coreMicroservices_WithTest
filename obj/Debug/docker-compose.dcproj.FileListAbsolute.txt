@@ -1,0 +1,9 @@
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\bin\Debug\WebApi.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\bin\Debug\Domain.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\bin\Debug\Persistance.dll
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\bin\Debug\WebApi.pdb
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\bin\Debug\Domain.pdb
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\bin\Debug\Persistance.pdb
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\mohapap\source\repos\coreMicroservices_WithTest\obj\Debug\docker-compose.dcproj.CopyComplete

@@ -22,6 +22,7 @@ namespace XUnitTest_productApi
             //var controller = new ProductsController(null, dbContext);
             //public ProductsController(IProductService categoryService, IMapper mapper)
 
+            // Arrange
             List<ProductInfos> list = new List<ProductInfos>();
             list.Add( new ProductInfos() { Id=1,Productname="aed",Unitprice=9});
            
@@ -33,9 +34,11 @@ namespace XUnitTest_productApi
             // Act
             var response = await controller.GetAllSales() as ObjectResult;
             var values = response.Value  as List<ProductInfos>;
-         
+            
+            //Assert
            Assert.Equal(values[0].Productname, "aed");
-           
+            Assert.Equal(values.Count, 1);
+
         }
        
     }
